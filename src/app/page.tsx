@@ -58,7 +58,7 @@ export default function Home() {
               </div>
               <div className="transition-all duration-300">
                 <p className="group-hover:text-sky-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
-                <p className="text-gray-400">Macquarie University</p>
+                <p className="text-gray-400">Queensland University of Technology</p>
               </div>
             </div>
             <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 hover:backdrop-blur-2xl transition-all duration-300 rounded flex gap-10 mb-1">
