@@ -11,13 +11,16 @@ export default function Home() {
         <div className="py-24">
           <section className="mb-28">
             <p className="text-gray-400 mb-4">
-              Raphael has been obsessed with technology and computer games from a very young age. He decided to take on tutorials about programming – eventually specialising in web development languages after starting to create his own websites as a hobby. Raphael is currently a university student, completing his Bachelor of IT Computer Science in QUT, providing a good foundation for his programming knowledge. Raphael is very keen on learning new technologies and expanding his knowledge every day.
+              This will be the section about <strong>myself</strong>, where I will talk about myself and stuff
             </p>
             <p className="text-gray-400 mb-4">
-              Raphael is a determined problem-solver and never gives up until a solution has been determined. He is always down to trying out new things and is ready to risk it all. He likes having an enjoyable environment with his co-workers, having small talk and having fun.
+              This will be the section about <strong>myself</strong>, where I will talk about myself and stuff
             </p>
-            <p className="text-gray-400">
-              Outside of coding, you will find Raphael playing sports, especially basketball, going to the gym, or hanging out with his pretty girlfriend. Most of the time you will find him in his room playing video games or trying out a new framework. His table tennis skills are still in the works, but watch out! He is rapidly improving his spins and smashes, and is on his way to being number one!
+            <p className="text-gray-400 mb-4">
+              This will be the section about <strong>myself</strong>, where I will talk about myself and stuff
+            </p>
+            <p className="text-gray-400 mb-4">
+              This will be the section about <strong>myself</strong>, where I will talk about myself and stuff
             </p>
           </section>
 
@@ -28,9 +31,20 @@ export default function Home() {
                   <div className="text-gray-400 flex-shrink-0 w-1/4 text-xs">
                     2023 — PRESENT
                   </div>
-                    <div className="transition-all duration-300">
-                      <p className="group-hover:text-sky-300">Jala Design — Junior Web Developer</p>
-                      <p className="text-gray-400 ">Worked with a small team using PHP/WordPress to develop websites</p>
+                    <div className="transition-all">
+                      <p className="group-hover:text-sky-300 duration-300">Jala Design — Junior Web Developer</p>
+                      <p className="text-gray-400 ">Worked with a small team using <strong>PHP/WordPress</strong> and <strong>JS (jQuery)</strong> to develop websites</p>
+                  </div>
+                </div>
+              </a>
+              <a href="https://thehandsomedevs.com.au/" target="_blank">
+                <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 hover:backdrop-blur-2xl transition-all duration-300 rounded flex gap-10 mb-1">
+                  <div className="text-gray-400 flex-shrink-0 w-1/4 text-xs">
+                    2021 — PRESENT
+                  </div>
+                    <div className="transition-all">
+                      <p className="group-hover:text-sky-300 duration-300">The Handsome Devs — Junior Web Developer</p>
+                      <p className="text-gray-400 ">Small startup project team to create websites using <strong>React</strong> where try out headless CMS' usually using <strong>GraphQL</strong> for data queries.</p>
                   </div>
                 </div>
               </a>
@@ -43,7 +57,7 @@ export default function Home() {
                 2021 — PRESENT
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300">Bachelor of Information Technology Major in Computer Science</p>
+                <p className="group-hover:text-sky-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
                 <p className="text-gray-400">Macquarie University</p>
               </div>
             </div>
@@ -52,7 +66,7 @@ export default function Home() {
                 2020 — 2020
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300">Diploma of Information Technology</p>
+                <p className="group-hover:text-sky-300 duration-300">Diploma of Information Technology</p>
                 <p className="text-gray-400">Macquarie University</p>
               </div>
             </div>
@@ -61,7 +75,7 @@ export default function Home() {
                 2019 — 2020
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300">Highschool</p>
+                <p className="group-hover:text-sky-300 duration-300">Highschool</p>
                 <p className="text-gray-400">St. Leo's Catholic College</p>
               </div>
             </div>
@@ -70,7 +84,7 @@ export default function Home() {
                 2011 — 2018
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300">Elementary - Highschool</p>
+                <p className="group-hover:text-sky-300 duration-300">Elementary - Highschool</p>
                 <p className="text-gray-400">Don Bosco Academy Pampanga</p>
               </div>
             </div>
@@ -79,7 +93,7 @@ export default function Home() {
                 2006 — 2011
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300">Elementary</p>
+                <p className="group-hover:text-sky-300 duration-300">Elementary</p>
                 <p className="text-gray-400">Westfields International School</p>
               </div>
             </div>
