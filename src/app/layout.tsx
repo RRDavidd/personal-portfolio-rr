@@ -16,6 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth selection:bg-teal-900">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={roboto.className}>{children}</body>
     </html>
   )
