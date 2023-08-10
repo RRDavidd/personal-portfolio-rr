@@ -5,9 +5,12 @@ export default function Home() {
     <main className="min-h-screen max-w-screen-xl mx-auto">
       <div className="flex justify-between gap-5">
         <div className="flex-shrink-0 top-0 sticky max-h-screen w-1/2 py-24">
-          <h1 className="font-bold mb-2">Raphael David</h1>
+          <h1 className="font-bold mb-2 hover:scale-110 hover:cursor-pointer duration-500 hover:drop-shadow-[0_0px_35px_rgba(255,255,255,.8)] transition-all">Raphael David</h1>
           <p className="font-normal mb-4">Junior Web Developer</p>
           <p className="font-light text-secondary">Some guy trying to get on dev stuff.</p>
+          <nav>
+            test
+          </nav>
         </div>
         <div className="py-24">
           <section className="mb-40">
