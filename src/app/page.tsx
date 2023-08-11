@@ -1,16 +1,42 @@
+import Github from '@/_components/svgs/Github'
+import Instagram from '@/_components/svgs/Instagram'
+import Linkedin from '@/_components/svgs/Linkedin'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <main className="min-h-screen max-w-screen-xl mx-auto">
       <div className="flex justify-between gap-5">
-        <div className="flex-shrink-0 top-0 sticky max-h-screen w-1/2 py-24">
-          <h1 className="font-bold mb-2 hover:scale-110 hover:cursor-pointer duration-500 hover:drop-shadow-[0_0px_35px_rgba(255,255,255,.8)] transition-all">Raphael David</h1>
-          <p className="font-normal mb-4">Junior Web Developer</p>
-          <p className="font-light text-secondary">Some guy trying to get on dev stuff.</p>
-          <nav>
-            test
-          </nav>
+        <div className="flex-shrink-0 top-0 sticky max-h-screen w-1/2 py-24 flex flex-col justify-between">
+          <div>
+            <div className="mb-20">
+              <h1 className="font-bold mb-2 hover:scale-110 hover:cursor-pointer duration-500 hover:drop-shadow-[0_0px_35px_rgba(255,255,255,.8)] transition-all">Raphael David</h1>
+              <p className="font-normal mb-4">Junior Web Developer</p>
+              <p className="font-light text-secondary">Some guy trying to get on dev stuff.</p>
+            </div>
+            <nav>
+              <ul>
+                <li className="mb-2">Experience</li>
+                <li className="mb-2">Projects</li>
+                <li>Education</li>
+              </ul>
+            </nav>
+          </div>
+          <div className="flex gap-8">
+            <figure>
+              <Github width={30} height={30} className="fill-secondary hover:fill-white hover:scale-110 transition-all duration-300"/>
+            </figure>
+            <figure>
+              <a href="https://www.instagram.com/rrdvid/?" target="_blank">
+                <Instagram width={30} height={30} className="fill-secondary hover:fill-white hover:scale-110 transition-all duration-300"/>
+              </a>
+            </figure>
+            <figure>
+              <a href="https://www.instagram.com/rrdvid/?" target="_blank">
+                <Linkedin width={30} height={30} className="fill-secondary hover:fill-white hover:scale-110 transition-all duration-300"/>
+              </a>
+            </figure>
+          </div>
         </div>
         <div className="py-24">
           <section className="mb-40">
