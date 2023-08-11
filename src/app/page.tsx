@@ -56,7 +56,7 @@ export default function Home() {
             </p>
           </section>
 
-          <section className="mb-20">
+          <section className="mb-20 hover:drop-shadow-[0_0px_120px_rgba(0,255,0,.8)] transition-all">
             <h2 className="text-4xl mb-4 font-medium">Experience</h2>
               <a href="https://www.jaladesign.com.au/" target="_blank">
                 <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
@@ -82,7 +82,7 @@ export default function Home() {
               </a>
           </section>
 
-          <section className="mb-20">
+          <section className="mb-20 hover:drop-shadow-[0_0px_120px_rgba(0,255,0,.8)] transition-all">
             <h2 className="text-4xl mb-4 font-medium">Education</h2>
             <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
               <div className="text-secondary flex-shrink-0 w-1/4 text-xs">
@@ -131,7 +131,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="mb-20">
+          <section className="mb-20 hover:drop-shadow-[0_0px_200px_rgba(0,255,0,.3)] transition-all">
             <h2 className="text-4xl mb-4 font-medium">Projects</h2>
             <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
               <div className="text-secondary flex-shrink-0 w-1/4 text-xs relative">
