@@ -24,7 +24,9 @@ export default function Home() {
           </div>
           <div className="flex gap-8">
             <figure>
-              <Github width={30} height={30} className="fill-secondary hover:fill-white hover:scale-110 transition-all duration-300"/>
+              <a href="https://github.com/RRDavidd" target="_blank">
+                <Github width={30} height={30} className="fill-secondary hover:fill-white hover:scale-110 transition-all duration-300"/>
+              </a>
             </figure>
             <figure>
               <a href="https://www.instagram.com/rrdvid/?" target="_blank">
@@ -32,7 +34,7 @@ export default function Home() {
               </a>
             </figure>
             <figure>
-              <a href="https://www.instagram.com/rrdvid/?" target="_blank">
+              <a href="https://www.linkedin.com/in/raphael-david-013b49241/" target="_blank">
                 <Linkedin width={30} height={30} className="fill-secondary hover:fill-white hover:scale-110 transition-all duration-300"/>
               </a>
             </figure>
