@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       scrollBehavior: ['smooth'],
       colors: {
-        secondary: '#9CA3AF',
+        secondary: "rgb(254 215 170)",
       }
     },
   },
