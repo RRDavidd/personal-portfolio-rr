@@ -108,7 +108,7 @@ export default function Home() {
               </div>
               <div className="transition-all duration-300">
                 <p className="group-hover:text-sky-300 duration-300">Highschool</p>
-                <p className="text-secondary">St. Leo's Catholic College</p>
+                <p className="text-secondary">St. Leos Catholic College</p>
               </div>
             </div>
             <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
