@@ -8,11 +8,17 @@ export default function Home() {
   return (
     <main className="min-h-screen max-w-screen-xl mx-auto">
       <figure className="absolute top-0 -left-52 hover:left-0 transition-all">
-        <Image src="/cat1.png" width={300} height={250} className=" " alt="crazy-cat-1" />
-        stinker cat1
+        <Image src="/cat1.png" width={300} height={250} alt="crazy-cat-1" />
+        <p className="text-xs">stinker cat</p>
       </figure>
-      <div className="flex justify-between gap-5">
-        <div className="flex-shrink-0 top-0 sticky max-h-screen w-1/2 py-24 flex flex-col justify-between">
+      <Link href="/">
+        <figure className="absolute right-0 -bottom-full">
+          <p className="text-xs text-center">scroll to top</p>
+          <Image src="/cat5.png" width={150} height={250} alt="crazy-cat-1" />
+        </figure>
+      </Link>
+      <div className="flex justify-between gap-5 md:flex-row flex-col">
+        <div className="flex-shrink-0 top-0 md:sticky max-h-screen w-1/2 py-24 flex flex-col justify-between">
           <div>
             <div className="mb-20">
                 <h1 className="font-bold mb-2 hover:scale-110 hover:cursor-pointer duration-500 hover:drop-shadow-[0_0px_120px_rgba(0,255,0,.8)] transition-all">Raphael David</h1>
@@ -21,9 +27,9 @@ export default function Home() {
             </div>
             <nav>
               <ul>
-                <li className="mb-2"><Link href="/#experience">Experience</Link></li>
-                <li className="mb-2"><Link href="/#education">Education</Link></li>
-                <li><Link href="/#projects">Projects</Link></li>
+                <li className="mb-2 hover:text-lime-300 transition-all duration-300"><Link href="/#experience">Experience</Link></li>
+                <li className="mb-2 hover:text-lime-300 transition-all duration-300"><Link href="/#education">Education</Link></li>
+                <li className="hover:text-lime-300 transition-all duration-300"><Link href="/#projects">Projects</Link></li>
               </ul>
             </nav>
           </div>
@@ -66,7 +72,7 @@ export default function Home() {
                     2023 — PRESENT
                   </div>
                     <div className="transition-all">
-                      <p className="group-hover:text-sky-300 duration-300">Jala Design — Junior Web Developer</p>
+                      <p className="group-hover:text-lime-300 duration-300">Jala Design — Junior Web Developer</p>
                       <p className="text-secondary ">Worked with a small team using <strong className="decoration-green-500">PHP/WordPress</strong> and <strong className="decoration-green-500">JS (jQuery)</strong> to develop websites</p>
                   </div>
                 </div>
@@ -77,7 +83,7 @@ export default function Home() {
                     2021 — PRESENT
                   </div>
                     <div className="transition-all">
-                      <p className="group-hover:text-sky-300 duration-300">The Handsome Devs — Junior Web Developer</p>
+                      <p className="group-hover:text-lime-300 duration-300">The Handsome Devs — Junior Web Developer</p>
                       <p className="text-secondary">Small startup project team to create websites using <strong className="decoration-orange-500">React</strong> with <strong className="decoration-orange-500">GraphQL</strong> for data queries.</p>
                   </div>
                 </div>
@@ -91,7 +97,7 @@ export default function Home() {
                 2021 — PRESENT
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
+                <p className="group-hover:text-lime-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
                 <p className="text-secondary">Queensland University of Technology</p>
               </div>
             </div>
@@ -100,7 +106,7 @@ export default function Home() {
                 2020 — 2020
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Diploma of Information Technology</p>
+                <p className="group-hover:text-lime-300 duration-300">Diploma of Information Technology</p>
                 <p className="text-secondary">Macquarie University</p>
               </div>
             </div>
@@ -109,7 +115,7 @@ export default function Home() {
                 2019 — 2020
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Highschool</p>
+                <p className="group-hover:text-lime-300 duration-300">Highschool</p>
                 <p className="text-secondary">St. Leos Catholic College</p>
               </div>
             </div>
@@ -118,7 +124,7 @@ export default function Home() {
                 2011 — 2018
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Elementary - Highschool</p>
+                <p className="group-hover:text-lime-300 duration-300">Elementary - Highschool</p>
                 <p className="text-secondary">Don Bosco Academy Pampanga</p>
               </div>
             </div>
@@ -127,7 +133,7 @@ export default function Home() {
                 2006 — 2011
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Elementary</p>
+                <p className="group-hover:text-lime-300 duration-300">Elementary</p>
                 <p className="text-secondary">Westfields International School</p>
               </div>
             </div>
@@ -145,7 +151,7 @@ export default function Home() {
                   />
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
+                <p className="group-hover:text-lime-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
                 <p className="text-secondary">Queensland University of Technology</p>
               </div>
             </div>
@@ -159,7 +165,7 @@ export default function Home() {
                   />
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
+                <p className="group-hover:text-lime-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
                 <p className="text-secondary">Queensland University of Technology</p>
               </div>
             </div>
@@ -173,7 +179,7 @@ export default function Home() {
                   />
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
+                <p className="group-hover:text-lime-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
                 <p className="text-secondary">Queensland University of Technology</p>
               </div>
             </div>
@@ -187,7 +193,7 @@ export default function Home() {
                   />
               </div>
               <div className="transition-all duration-300">
-                <p className="group-hover:text-sky-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
+                <p className="group-hover:text-lime-300 duration-300">Bachelor of Information Technology Major in Computer Science</p>
                 <p className="text-secondary">Queensland University of Technology</p>
               </div>
             </div>
