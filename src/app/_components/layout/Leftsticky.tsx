@@ -1,6 +1,6 @@
-import Github from '@/_components/svgs/Github'
-import Instagram from '@/_components/svgs/Instagram'
-import Linkedin from '@/_components/svgs/Linkedin'
+import Github from '../svgs/Github'
+import Linkedin from '../svgs/Linkedin'
+import Instagram from '../svgs/Instagram'
 import Link from 'next/link'
 import Navbar from './Navbar'
 
