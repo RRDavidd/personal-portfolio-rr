@@ -1,24 +1,16 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import Github from '@/_components/svgs/Github'
-import Instagram from '@/_components/svgs/Instagram'
-import Linkedin from '@/_components/svgs/Linkedin'
+import Sidecats from "./_components/cats/Sidecats"
+import Github from "./_components/svgs/Github"
+import Instagram from "./_components/svgs/Instagram"
+import Linkedin from "./_components/svgs/Linkedin"
 
 export default function Home() {
   return (
     <>
       <main className="max-w-screen-xl mx-auto xl:p-0 lg:p-5 p-5">
-        <figure className="absolute top-0 -left-52 hover:left-0 transition-all">
-          <Image src="/cat1.png" width={275} height={250} alt="crazy-cat-1" />
-          <p className="text-xs">stinker cat</p>
-        </figure>
-        <Link href="/">
-          <figure className="absolute right-0 -bottom-full">
-            <p className="text-xs text-center">scroll to top</p>
-            <Image src="/cat5.png" width={100} height={250} alt="crazy-cat-1" />
-          </figure>
-        </Link>
+        <Sidecats />
         {/* <RandomCats /> */}
         <div className="flex justify-between gap-5 md:flex-row flex-col ">
           <div className="flex-shrink-0 top-0 md:sticky max-h-screen w-1/2 py-24 flex flex-col justify-between">
