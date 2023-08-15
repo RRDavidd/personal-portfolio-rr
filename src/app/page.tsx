@@ -7,10 +7,10 @@ import Rightcontent from '@/_components/layout/Rightcontent'
 export default function Home() {
   return (
     <>
+      <main className="max-w-screen-xl mx-auto xl:p-0 lg:p-5 p-5">
       <Sidecats />
-      <main className="max-w-screen-xl mx-auto">
         {/* <RandomCats /> */}
-        <div className="flex justify-between gap-5 md:flex-row flex-col">
+        <div className="flex justify-between gap-5 md:flex-row flex-col ">
           <Lefsticky />
           <Rightcontent />
         </div>
