@@ -27,14 +27,12 @@ export default function Sidecats(){
         <Image src="/cat1.png" width={275} height={250} alt="crazy-cat-1" />
         <p className="text-xs">stinker cat</p>
       </figure>
-      {displayCat &&
-        <Link href="/">
-          <figure className={`fixed right-0 bottom-0 transition-all`}>
-            <p className="text-xs text-center">scroll to top</p>
-            <Image src="/cat5.png" width={75} height={250} alt="crazy-cat-1" />
-          </figure>
-        </Link>
-      }
+      <Link href="/">
+        <figure className={`fixed right-0 ${displayCat ? "bottom-0 transition-all" : "-bottom-40 transition-all"} `}>
+          <p className="text-xs text-center">scroll to top</p>
+          <Image src="/cat5.png" width={75} height={250} alt="crazy-cat-1" />
+        </figure>
+      </Link>
     </>
   )
 }
