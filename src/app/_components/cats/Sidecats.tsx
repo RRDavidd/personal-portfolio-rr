@@ -9,7 +9,7 @@ export default function Sidecats(){
         <p className="text-xs">stinker cat</p>
       </figure>
       <Link href="/">
-        <figure className="absolute right-0 -bottom-full">
+        <figure className="fixed right-0 bottom-0">
           <p className="text-xs text-center">scroll to top</p>
           <Image src="/cat5.png" width={100} height={250} alt="crazy-cat-1" />
         </figure>
