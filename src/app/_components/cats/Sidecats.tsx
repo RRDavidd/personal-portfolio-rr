@@ -16,9 +16,6 @@ export default function Sidecats(){
       } else {
         setCat(false)
       }
-      console.log(scroll);
-      console.log(displayCat);
-
     }, [scroll]
   )
   return(
