@@ -98,8 +98,8 @@ export default function Rightcontent(){
               alt="poopoo"
               src="/20221127_0001.png"
               fill={true}
-              objectFit="cover"
-              className="rounded-sm ring-white ring-1 group-hover:ring-lime-200 duration-300"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="rounded-sm ring-white ring-1 group-hover:ring-lime-200 duration-300 object-cover"
               />
           </div>
           <div className="transition-all duration-300">
@@ -113,8 +113,8 @@ export default function Rightcontent(){
               alt="poopoo"
               src="/20221127_0001.png"
               fill={true}
-              objectFit="cover"
-              className="rounded-sm ring-white ring-1 group-hover:ring-lime-200 duration-300"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="rounded-sm ring-white ring-1 group-hover:ring-lime-200 duration-300 object-cover"
               />
           </div>
           <div className="transition-all duration-300">
@@ -128,8 +128,8 @@ export default function Rightcontent(){
               alt="poopoo"
               src="/20221127_0001.png"
               fill={true}
-              objectFit="cover"
-              className="rounded-sm ring-white ring-1 group-hover:ring-lime-200 duration-300"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="rounded-sm ring-white ring-1 group-hover:ring-lime-200 duration-300 object-cover"
               />
           </div>
           <div className="transition-all duration-300">
@@ -143,8 +143,8 @@ export default function Rightcontent(){
               alt="poopoo"
               src="/20221127_0001.png"
               fill={true}
-              objectFit="cover"
-              className="rounded-sm ring-white ring-1 group-hover:ring-lime-200 duration-300"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              className="rounded-sm ring-white ring-1 group-hover:ring-lime-200 duration-300 object-cover"
               />
           </div>
           <div className="transition-all duration-300">

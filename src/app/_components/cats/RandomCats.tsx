@@ -11,23 +11,25 @@ const RandomNumber = (max: number) =>  {
 export default function RandomCats() {
   const [randArr, setRandArr] = useState<number[][]>([]);
   useEffect(() => {
-    let newRandArr = [];
-    for(let i = 0; i < 5; i++) {
-      const rand1 = RandomNumber(1000);
-      const rand2 = RandomNumber(1000);
-      newRandArr.push([rand1, rand2]);
-
-    }
-    setRandArr(newRandArr);
+    setRandArr(Array(11).fill(0).map((_, i) => {
+      return [RandomNumber(1000), RandomNumber(1000)]
+    }))
   }, [])
+
+  if (!randArr.length) return null; // Or you can return a loader/spinner
   return(
     <>
-      {console.log(randArr)}
-      { randArr.length > 0 && (
-        <div className={`absolute top-[${randArr[0][0]}px] right-[${randArr[0][1]}px]`}>
-          <Image alt="cat" width={50} height={50} src="/cat5.png"/>
-        </div>
-        )
+      {
+        console.log(randArr[0][0])
+      }
+      {
+        Array(11).fill(0).map((_, i) => {
+          return (
+            <div className={`fixed top-[${randArr[0][0]}]`} key={i}>
+              <Image alt="cat" width={50} height={50} src={`/cat${i+1}.png`}/>
+            </div>
+          )
+        })
       }
 
       {/* <div className="absolute">
