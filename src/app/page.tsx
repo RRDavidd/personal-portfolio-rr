@@ -1,7 +1,7 @@
-import Sidecats from "./_components/cats/Sidecats"
-import Lefsticky from "./_components/layout/Leftsticky"
-import Rightcontent from "./_components/layout/Rightcontent"
-import RandomCats from "./_components/cats/RandomCats"
+import Sidecats from "./_components/cats/Sidecats";
+import Lefsticky from "./_components/layout/Leftsticky";
+import Rightcontent from "./_components/layout/Rightcontent";
+import RandomCats from "./_components/cats/RandomCats";
 
 export default function Home() {
   return (
@@ -15,5 +15,5 @@ export default function Home() {
         </div>
       </main>
     </>
-  )
+  );
 }

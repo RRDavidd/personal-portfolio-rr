@@ -1,18 +1,21 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Roboto } from 'next/font/google'
+import "./globals.css";
+import type { Metadata } from "next";
+import { Roboto } from "next/font/google";
 
-const roboto = Roboto({ subsets: ['latin'], weight: ["100", "300", "400", "500", "700"] })
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700"],
+});
 
 export const metadata: Metadata = {
-  title: 'RR David',
-  description: 'My personal portfolio!',
-}
+  title: "RR David",
+  description: "My personal portfolio!",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" className="scroll-smooth selection:bg-green-950">
@@ -21,5 +24,5 @@ export default function RootLayout({
       </head>
       <body className={roboto.className}>{children}</body>
     </html>
-  )
+  );
 }
