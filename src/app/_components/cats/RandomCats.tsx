@@ -3,59 +3,45 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const RandomNumber = (max: number) => {
+const makeRandomNumber = (max: number) => {
   return Math.floor(Math.random() * max);
 };
 
 export default function RandomCats() {
   const [randArr, setRandArr] = useState<number[][]>([]);
+
   useEffect(() => {
     setRandArr(
       Array(11)
         .fill(0)
         .map((_, i) => {
-          return [RandomNumber(1000), RandomNumber(1000)];
+          return [makeRandomNumber(1000), makeRandomNumber(1000)];
         })
     );
   }, []);
 
-  if (!randArr.length) return null; // Or you can return a loader/spinner
+  if (!randArr.length) return null;
   return (
     <>
-      {console.log(randArr[0][0])}
+      {console.log(randArr)}
       {Array(11)
         .fill(0)
         .map((_, i) => {
           return (
-            <div className={`fixed top-[${randArr[0][0]}]`} key={i}>
+            <div
+              className="fixed -z-10 opacity-40"
+              key={i}
+              style={{ top: `${randArr[i][1]}px`, left: `${randArr[i][0]}px` }}
+            >
               <Image
                 alt="cat"
-                width={50}
+                width={25}
                 height={50}
                 src={`/cat${i + 1}.png`}
               />
             </div>
           );
         })}
-
-      {/* <div className="absolute">
-        <Image alt="cat" width={50} height={50} src="/cat6.png"/>
-      </div>
-      <div className="absolute">
-        <Image alt="cat" width={50} height={50} src="/cat7.png"/>
-      </div>
-      <div className="absolute">
-        <Image alt="cat" width={50} height={50} src="/cat8.png"/>
-      </div>
-      <div className="absolute">
-        <Image alt="cat" width={50} height={50} src="/cat9.png"/>
-      </div>
-      <div className="absolute">
-        <Image alt="cat" width={50} height={50} src="/cat10.png"/>
-      </div>
-      <div className="absolute">
-        <Image alt="cat" width={50} height={50} src="/cat11.png"/>
-      </div> */}
     </>
   );
 }
