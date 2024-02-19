@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Rightcontent() {
   return (
-    <div className="py-24">
+    <div className="md:py-24 pt-18 pb-24">
       <section className="mb-28">
         <p className="text-secondary mb-4">
           Hello, I am <strong className="decoration-red-500">RR David</strong>,
@@ -25,7 +25,7 @@ export default function Rightcontent() {
       >
         <h2 className="text-4xl mb-4 font-medium">Experience</h2>
         <a href="https://www.jaladesign.com.au/" target="_blank">
-          <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+          <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
             <div className="text-secondary flex-shrink-0 w-1/4 text-xs">
               2023 — PRESENT
             </div>
@@ -34,17 +34,17 @@ export default function Rightcontent() {
                 Jala Design — Junior Web Developer
               </p>
               <p className="text-secondary ">
-                Worked with a small team using{" "}
+                Working with a small team using{" "}
                 <strong className="decoration-green-500">PHP/WordPress</strong>{" "}
                 and{" "}
                 <strong className="decoration-green-500">JS (jQuery)</strong> to
-                develop websites
+                develop websites.
               </p>
             </div>
           </div>
         </a>
         <a href="https://thehandsomedevs.com.au/" target="_blank">
-          <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+          <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
             <div className="text-secondary flex-shrink-0 w-1/4 text-xs">
               2021 — PRESENT
             </div>
@@ -55,8 +55,7 @@ export default function Rightcontent() {
               <p className="text-secondary">
                 Small startup project team to create websites using{" "}
                 <strong className="decoration-orange-500">React</strong> with{" "}
-                <strong className="decoration-orange-500">GraphQL</strong> for
-                data queries.
+                <strong className="decoration-orange-500">GraphQL</strong>.
               </p>
             </div>
           </div>
@@ -68,7 +67,7 @@ export default function Rightcontent() {
         className="mb-20 hover:drop-shadow-[0_0px_120px_rgba(0,255,0,.8)] transition-all"
       >
         <h2 className="text-4xl mb-4 font-medium">Education</h2>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs">
             2021 — PRESENT
           </div>
@@ -81,7 +80,7 @@ export default function Rightcontent() {
             </p>
           </div>
         </div>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs">
             2020 — 2020
           </div>
@@ -92,7 +91,7 @@ export default function Rightcontent() {
             <p className="text-secondary">Macquarie University</p>
           </div>
         </div>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs">
             2019 — 2020
           </div>
@@ -101,7 +100,7 @@ export default function Rightcontent() {
             <p className="text-secondary">St. Leos Catholic College</p>
           </div>
         </div>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs">
             2011 — 2018
           </div>
@@ -112,7 +111,7 @@ export default function Rightcontent() {
             <p className="text-secondary">Don Bosco Academy Pampanga</p>
           </div>
         </div>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs">
             2006 — 2011
           </div>
@@ -128,7 +127,7 @@ export default function Rightcontent() {
         className="mb-20 hover:drop-shadow-[0_0px_200px_rgba(0,255,0,.3)] transition-all"
       >
         <h2 className="text-4xl mb-4 font-medium">Projects</h2>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs relative">
             <Image
               alt="poopoo"
@@ -147,7 +146,7 @@ export default function Rightcontent() {
             </p>
           </div>
         </div>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs relative">
             <Image
               alt="poopoo"
@@ -166,7 +165,7 @@ export default function Rightcontent() {
             </p>
           </div>
         </div>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs relative">
             <Image
               alt="poopoo"
@@ -185,7 +184,7 @@ export default function Rightcontent() {
             </p>
           </div>
         </div>
-        <div className="group p-3 hover:cursor-pointer hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
+        <div className="group p-3  hover:bg-slate-400 hover:bg-opacity-10 transition-all duration-300 rounded flex gap-10 mb-2 hover:ring-2 hover:ring-green-700">
           <div className="text-secondary flex-shrink-0 w-1/4 text-xs relative">
             <Image
               alt="poopoo"

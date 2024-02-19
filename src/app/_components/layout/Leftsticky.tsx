@@ -12,14 +12,17 @@ export default function Lefsticky() {
           <h1 className="font-bold mb-2 hover:scale-110 hover:cursor-pointer duration-500 hover:drop-shadow-[0_0px_120px_rgba(0,255,0,.8)] transition-all">
             Raphael David
           </h1>
-          <p className="font-normal mb-4">Junior Web Developer</p>
-          <p className="font-light text-secondary">
-            Some guy trying to get on dev stuff.
+          <p className="font-normal mb-4">Web Developer</p>
+          <p
+            className="font-light text-secondary max-w-md
+          "
+          >
+            I enjoy programming and music!
           </p>
         </div>
         <Navbar />
       </div>
-      <div className="flex gap-8">
+      <div className="flex gap-8 md:pt-0 pt-14">
         <figure>
           <a href="https://github.com/RRDavidd" target="_blank">
             <Github

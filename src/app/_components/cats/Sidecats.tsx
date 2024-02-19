@@ -19,10 +19,6 @@ export default function Sidecats() {
   }, [scroll]);
   return (
     <>
-      <figure className="absolute top-0 -left-52 hover:left-0 transition-all  z-10">
-        <Image src="/cat1.png" width={275} height={5} alt="crazy-cat-1" />
-        <p className="text-xs">stinker cat</p>
-      </figure>
       <Link href="/">
         <figure
           className={`fixed right-0 ${
